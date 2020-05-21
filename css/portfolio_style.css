@@ -1,0 +1,17 @@
+body{
+    background-color: antiquewhite;
+    min-height: 100%;
+    position: relative;
+}
+footer{
+    position: absolute;
+    width: 100%;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+footer p a{
+    padding-right: 10px;
+}

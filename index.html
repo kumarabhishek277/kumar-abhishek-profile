@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/portfolio_style.css">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script>
+        function myFunction()
+        {
+            var x = document.getElementById("up");
+            var y = document.getElementById("down");
+            if(y.style.display === "none")
+                {
+                    x.style.display = "none";
+                    y.style.display = "block";
+                }
+            else if(x.style.display === "none")
+                {
+                    x.style.display = "block";
+                    y.style.display = "none";
+                }
+        }
+    </script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Kumar Abhishek</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav justify-content-end">
+              <li class="nav-item" >
+                <a class="nav-link" href="#academic" style="color: white;">Academic Details</a>
+              </li>
+              <li class="nav-item" >
+                <a class="nav-link" href="#project_details" style="color: white;">Projects</a>
+              </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="images/profilepic.JPG" alt="First slide" style="opacity: 0.4">
+              <div class="carousel-caption d-none d-md-block">
+                  <h1 style="color: black;"><b>Hi I'm Kumar Abhishek</b></h1>
+                  <p style="color: blue;">A Computer Science student insterested in web development</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <a href="#project_details"><img class="d-block w-100" src="images/projects-cover.jpg" alt="Second slide"></a>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="container" style="margin-top:50px;">
+        <div style="margin-bottom: 25px;">
+            <p class="text-center h1">About Me</p>
+            <hr class="text-center" style="width: 25%">
+        </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-2 text-center">
+                <img src="images/my_photo_1.jpeg" class="rounded-circle mx-auto" alt="Cinque Terre">
+            </div>
+            <div class="col-md-8" style="font-family: sans-serif;font-size: 1.3em;">
+                <p>My name is Kumar Abhishek. I am a B.Tech student at VIT, Vellore. I am pursuing Computer Science and Engineering with Spl. In    Info. Security.</p>
+                <p>I am form Patna,Bihar.</p>
+                <p>I am interested in Web Development and Cryptography.</p>
+                <p>I also like to do Competitive Programming. Check my <a href="https://www.hackerrank.com/abhish277?hr_r=1" target="_blank">hackkerrank</a> account</p>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+ <!-- ACADEMIC DETAILS -->
+     <br>
+     <section id="academic">
+         <div class="container-fluid btn btn-primary" data-toggle="collapse" data-target="#BT" aria-expanded="false" aria-controls="BT">
+             <p class="h3">Academic Details</p>
+         </div>
+    </section>
+     <div class="collapse" id="BT" style="margin-bottom: 25px;">
+      <br>
+       <div class="container" >
+           <div class="row">
+               <div class="col-md-4" >
+                   <div class="card" style="background-color: beige">
+                       <div class="card-body">
+                           <div class="card-title text-center text-primary"><p class="h1">B.Tech</p></div>
+                           <div class="card-text">
+                               <ul class="list-group list-group-flush">
+                                   <li class="list-group-item"><b>College name:</b> Vellore Institute of Technology</li>
+                               <li class="list-group-item"><b>Branch:</b> Computer Science and Engineering with Spl. in Info. Security</li>
+                               <li class="list-group-item"><b>Start Date - End Date: </b>2017-2021</li>
+                               <li class="list-group-item"><b>Current C.G.P.A: </b>8.88</li>
+                           </ul>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div class="col-md-4">
+               <div class="card" style="background-color: beige">
+                   <div class="card-body">
+                       <div class="card-title text-center text-primary"><p class="h1">SSC</p></div>
+                       <div class="card-text">
+                           <ul class="list-group list-group-flush">
+                               <li class="list-group-item"><b>School name:</b> B.D. Public School</li>
+                               <li class="list-group-item"><b>Subjects:</b> English | Physics | Chemistry | Mathematics | Physical Education | Computer Science</li>
+                               <li class="list-group-item"><b>Year of Completion: </b>2016</li>
+                               <li class="list-group-item"><b>Percentage: </b>91</li>
+                           </ul>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div class="col-md-4">
+               <div class="card" style="background-color: beige">
+                   <div class="card-body">
+                       <div class="card-title text-center text-primary"><p class="h1">HSC</p></div>
+                       <div class="card-text">
+                           <ul class="list-group list-group-flush">
+                               <li class="list-group-item"><b>School name:</b> B.D. Public School</li>
+                               <li class="list-group-item"><b>Subjects:</b> Science | Social Science | English | Hindi | Maths | Computer</li>
+                               <li class="list-group-item"><b>Year of Completion: </b>2014</li>
+                               <li class="list-group-item"><b>C.G.P.A: </b>10.00</li>
+                           </ul>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+       </div>
+
+ </div>
+
+
+<!-- Project Details -->
+<section id="project_details"></section><div class="container-fluid btn btn-secondary" data-toggle="collapse" data-target="#project" aria-expanded="false" aria-controls="project">
+     <p class="h3">Projects</p>
+       </div>
+   <div class="collapse" id="project" style="margin-top: 20px;">
+       <div class="container-fluid">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 offset-md-1">
+                        <div class="card">
+                          <img class="card-img-top" src="images/online_quiz.JPG" alt="Online Quiz">
+                          <div class="card-body">
+                              <h5 class="card-title text-center">Online Quiz System</h5>
+                              <h6 class="text-center text-primary">Web Development</h6>
+                              <p class="text-muted text-center">Html | Css | JavaScript | Php | MySQL</p>
+                              <p class="text-center"><a href="online_quiz.pdf" class="btn btn-primary text-center">Download Document  <i class="fa fa-download"></i></a></p>
+                          </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col-md-3 offset-md-1">
+                        <div class="card" >
+                          <img class="card-img-top" src="images/access_control.JPG" alt="Online Quiz">
+                          <div class="card-body">
+                              <h5 class="card-title text-center">File Sharing Using Access control</h5>
+                              <h6 class="text-center text-primary">Console Application</h6>
+                              <p class="text-muted text-center">Cryptography | C++</p>
+                              <p class="text-center"><a href="access_control.pdf" class="btn btn-primary text-center">Download Document <i class="fa fa-download"></i></a></p>
+                          </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col-md-3 offset-md-1">
+                        <div class="card">
+                          <img class="card-img-top" src="images/resume_page.JPG" alt="Online Quiz">
+                          <div class="card-body">
+                              <h5 class="card-title text-center">Automated Resume Screening</h5>
+                              <h6 class="text-center text-primary">Web Development</h6>
+                              <p class="text-muted text-center">Html | Css | Php | MySQL</p>
+                              <p class="text-center"><a href="automated_resume.pdf" class="btn btn-primary text-center">Download Document <i class="fa fa-download"></i></a></p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        <div class="collapse" id="more_projects">
+                <div class="row">
+                    <div class="col-md-3 offset-md-1">
+                        <div class="card">
+                          <img class="card-img-top" src="images/cpu_Scheduling.JPG" alt="Online Quiz">
+                          <div class="card-body">
+                              <h5 class="card-title text-center">CPU Scheduling ALgorithm</h5>
+                              <h6 class="text-center text-primary">Console Application</h6>
+                              <p class="text-muted text-center">C++</p>
+                              <p class="text-center"><a href="cpu_scheduling.pdf" class="btn btn-primary text-center">Download Document  <i class="fa fa-download"></i></a></p>
+                          </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col-md-3 offset-md-1">
+                        <div class="card" >
+                          <img class="card-img-top" src="images/electronic_fund.JPG" alt="Online Quiz">
+                          <div class="card-body">
+                              <h5 class="card-title text-center">Secure Electronic Fund Transfer</h5>
+                              <h6 class="text-center text-primary">Console Application</h6>
+                              <p class="text-muted text-center">Cryptography | C++</p>
+                              <p class="text-center"><a href="electronic_fund.pdf" class="btn btn-primary text-center">Download Document <i class="fa fa-download"></i></a></p>
+                          </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col-md-3 offset-md-1">
+                        <div class="card">
+                          <img class="card-img-top" src="images/hospital_management.JPG" alt="Online Quiz">
+                          <div class="card-body">
+                              <h5 class="card-title text-center">Hospital Management System</h5>
+                              <h6 class="text-center text-primary">Console Application</h6>
+                              <p class="text-muted text-center">C Programming</p>
+                              <p class="text-center"><a href="hospital_management.pdf" class="btn btn-primary text-center">Download Document <i class="fa fa-download"></i></a></p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p onclick="myFunction()" id="up" class="text-center" data-toggle="collapse" data-target="#more_projects" aria-expanded="false" aria-controls="more_projects">More <i class="fa fa-chevron-down" style="font-size: 3.3em" ></i> Projects</p>
+            <p onclick="myFunction()" id="down" class="text-center" data-toggle="collapse" data-target="#more_projects" aria-expanded="false" aria-controls="more_projects" style="display: none;">Less <i class="fa fa-chevron-up" style="font-size: 3.3em" ></i> Projects</p>
+    </div>
+   </div>
+
+
+
+    <br>
+    <!-- contact me-->
+    <div class="container-fluid btn btn-primary" style="background-color:  darkgoldenrod"data-toggle="collapse" data-target="#contact" aria-expanded="false" aria-controls="contact">
+     <p class="h3">Contact Me</p>
+ </div>
+       <div class="collapse" id="contact">
+          <div class="container-fluid" style="background-color: darkgoldenrod ;color: grey;" >
+       <div class="row">
+           <div class="col-md-3 offset-md-2">
+               <div class="card" style="margin-bottom: 10px;">
+                  <div class="card-body">
+                    <h5 class="card-title text-center" >Download Resume</h5>
+                      <p class="text-center"><a href="resume.pdf" class="btn btn-primary"><i class="fa fa-download"></i></a></p>
+                  </div>
+                </div>
+           </div>
+           <br>
+           <div class="col-md-3 offset-md-3">
+               <div class="card" style="margin-bottom: 10px;">
+                  <div class="card-body">
+                      <p class="text-center"><a href="#" class="btn btn-primary fa fa-envelope"> abhish277kumar@gmail.com</a></p>
+                      <p class="text-center"><a href="#" class="btn btn-primary fa fa-mobile"> +91-8825215397</a></p>
+                  </div>
+                </div>
+           </div>
+       </div>
+    </div>
+       </div>
+
+    <footer style="background-color: red;">
+        <p class="text-center" style="padding-top: 10px;">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="https://github.com/kumarabhishek277" class="fa fa-github"></a>
+        <a href="https://www.linkedin.com/in/kumar-abhishek-325650190/" class="fa fa-linkedin"></a>
+        </p>
+    </footer>
+</body>
+</html>
